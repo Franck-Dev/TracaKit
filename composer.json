@@ -1,0 +1,10 @@
+{
+    "name": "joris/tuto",
+    "autoload": {
+        "psr-4": {
+            "Tuto\\": "class/"
+        }
+    },
+    "require": {}
+    
+}
