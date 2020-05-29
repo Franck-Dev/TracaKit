@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 $success = 0;
 $msg = "Une erreur est survenue (kitTable.php)";
 $data = [];
-$bdd = new PDO('mysql:host=localhost:3308;dbname=traca;charset=utf8', 'root', '');
+$bdd = new PDO('', '', '');
 
 $types = empty($_GET['types']) ? 'tool' : $_GET['types']; 
     
